@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Contoh Website PHP | Nurul Huda</title>
+    <title>Contoh Website PHP | abdul</title>
     <meta charset="UTF-8">
     <meta name="description" contents="Nurul Huda">
     <link rel="stylesheet" href="style.css" type="text/css">
