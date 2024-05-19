@@ -5,189 +5,214 @@
     --white: #fff;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+*{
     text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-    font-family: 'Tahoma';
+    margin:0px;
+    padding:0px;
 }
-
-body {
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    font-family:'Open Sans',sans-serif;
     background-color: var(--dark-blue);
     color: var(--white);
+    
+    
 }
 
-header {
-    text-align: center;
-    background-color: var(--blue);
-    position: fixed;
-    width: 100%;
+.logo1{
+    width: 100px;
+    height: 100px;
+    mix-blend-mode:multiply;
+}
+
+
+.wrapper{
+    width:1100px;
+    margin:auto;
+    position: relative;
+    
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    float:left;
+    font-family: 'Courier New', Courier, monospace;
+    color:#153448;
+}
+
+.menu{
+    float:right;
+}
+.daftar{
+    background-color:rgb(115, 223, 223);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:15px 20px 15px 20px;
+    color:#153448;
     font-weight: bold;
-    padding: 2%;
-    top: 0;
 }
-
-.title {
-    color: var(--green);
-    border-bottom: 1px solid var(--white);
-    display: inline-block; /* agar input search dan tombol submit tidak overlap */
-}
-
-.input-search {
-    width: 40%; /* ubah lebar menjadi 60% agar lebih luas */
+.wrapper input{
+    width: 30%; /* ubah lebar menjadi 60% agar lebih luas */
     border: none;
-    border-radius: 0 0 10px 0; /* ubah border radius agar sesuai dengan input search */
+    border-radius: 10px 0px 20px 5px; /* ubah border radius agar sesuai dengan input search */
     padding: 5px; /* tambahkan sedikit padding */
-    margin-right: 5px; /* tambahkan margin kanan agar terpisah dari tombol submit */
+    margin-left: 120px;
+    background-color:rgb(58, 56, 56);
+   
 }
-
-.input-submit {
+.wrapper button{
     border: none;
-    border-radius: 0 10px 0 0;
+    border-radius:10px 0px 15px 5px;
     padding: 5px 10px; /* tambahkan sedikit padding */
-    background-color: var(--green);
+    margin-left: 10px;
     color: var(--blue);
     font-weight: bold;
+    background-color:rgb(58, 56, 56); 
+    cursor: pointer;
 }
 
-nav {
-    margin-top: 15px;
-}
 
-nav ul {
+
+.info{
+ justify-content: center;
+ text-align: center;
+ margin-top: 10px;
+ padding: 0px;
+ }
+ .sideinfo .enter{
+    margin-bottom: 10px;
+ }
+
+.slider{
+    margin: 0px;
+    padding: 0px;
+    height:100dvh;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
-
-nav ul li {
-    margin-right: 20px; /* tambahkan margin-right agar ada ruang antara setiap elemen */
+.isi-slider{
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+    background-size: 100% 100%;
+    box-shadow: 20px 20p 10px black;
+    animation: slider 10s linear infinite;
+    border-radius: 10px;
+}
+@keyframes slider{
+    0%{
+        background-image: url('images/gambar1.jpg');
+    }
+    25%{
+        background-image: url('images/ml.jpg');
+    }
+    50%{
+        background-image: url('images/pubg.jpeg');
+    }
+    75%{
+        background-image: url('images/dunia1.jpg');
+    }
+    100%{
+        background-image: url('images/dunia2.jpg');
+    }
 }
 
-nav ul li:last-child {
-    margin-right: 0; /* hilangkan margin-right pada elemen terakhir */
-}
-
-nav ul li a {
-    color: var(--white); /* ubah warna teks menjadi putih */
-    border-bottom: 3px solid transparent; /* ubah border menjadi transparan */
-}
-
-nav ul li a:hover {
-    border-bottom: 3px solid var(--green); /* tambahkan efek hover pada link */
-}
-.slider
-{
-    margin-top: 10%;
-    display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    width: 65%;
-}
-
-.slider h4
-{
-    margin-top: 20%;
-}
-
-.slides
-{
+/*.slider{
+    width: 50%;
+    height: 200px;
     display: flex;
-    width: 50rem;
-    overflow: hidden;
+    gap: 5px;
+    margin-right: 40px;
 }
 
-.slides img 
-{
+.slider img {
+    margin:15px 5px;
+    width:10%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    border:2px solid white;
+    transition: all ease-in-out 1s;
+    transition: all ease-in 1s;
+}
+.slider img:hover{
+    width:50%;
+}
+.info1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;  
+    margin-right: 0;
+    align-items:flex-start;
+    float: left;
+ }
+ 
+.sideinfo .enter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.enter{
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:15px 20px 15px 20px;
+    color:#153448;
+    font-weight: bold;
+    font-size: large;
+    width: 65px;
+}*/
+
+
+
+nav{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    background-color: var(--blue);
+
+   
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color:#153448;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+/*untuk daftar html*/
+.topup{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+
+}
+.topup img{
+    width:100px;
+    height: 100px;
+    margin:10px 0px 0px 5px;
     border-radius: 10px;
 }
 
-.slide
-{
-    width: 50rem;
-    transition: .5s;
-}
 
-.choose_1:checked ~ .slides > .s1
-{
-    margin-left: -0rem;
-}
-
-.choose_2:checked ~ .slides > .s1
-{
-    margin-left: -50rem;
-}
-.overlay 
-{
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target 
-{
-    visibility: visible;
-    opacity: 1;
-}
-
-.popup 
-{
-    margin: 70px auto;
-    padding: 20px;
-    background: var(--dark-blue);
-    border-radius: 5px;
-    width: 30%;
-    position: relative;
-    transition: all 5s ease-in-out;
-}
-  
-.popup h2 {
-    margin-top: 0;
-    color: var(--white);
-    font-family: Tahoma, Arial, sans-serif;
-}
-
-.popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-}
-
-.popup .close:hover 
-{
-    color: #06D85F;
-}
-
-.content 
-{
-    max-height: 30%;
-    width: 50%;
-}
-.title-p
-{
-    margin-left: 65px;
-}
-.populer
-{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.populer img
-{
-  border-radius: 10px;   
-}
