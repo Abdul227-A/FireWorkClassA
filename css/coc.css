@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border:none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color:#fff;
+    --main-color:rgb(6, 68, 255);
+}
+
+html{
+    font-size: 63,5%;
+    overflow-x:hidden;
+}
+
+body{
+    background-color:var(--bg-color);
+    color:var(--text-color);
+}
+/* 
+section{
+    min-height: 100vh;
+    min-width: 50vh;
+  
+ } */
+
+ span{
+    color: var(--main-color);
+}
+
+ /* Navbarcss */
+ .header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: .5em 7%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header .sticky{
+    border-bottom: .1rem solid rgba(0,0,0, .2);
+}
+.logo{
+    font-size: 1.5em;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+    font-size: 1em;
+    color: var(--text-color);
+    margin-left: 3rem;
+    transition: .5s;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:var(--main-color);
+
+}
+#menu-icon{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    display: none;
+
+}
+
+
+
+.container {
+    display: flex; /* Menggunakan Flexbox untuk layout */
+    align-items: flex-start; /* Alinea item di awal vertikal */
+    justify-content: space-between; /* Memberikan jarak antara dua bagian utama */
+    width: 100%;
+    background-color:var(--bg-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.left-section {
+    flex: 35%; /* Memberikan bagian kiri 35% dari lebar container */
+    padding: 20px; /* Memberikan padding di dalam bagian kiri */
+    background-color:var(--bg-color);
+    max-width: 50%; /* Membatasi lebar maksimal bagian kiri */
+    max-width: 600px; /* Batasi lebar maksimal dari bagian kiri */
+    padding: 20px; /* Tambahkan padding */
+    font-family: Arial, sans-serif; /* Gunakan font yang lebih modern dan rapi */
+    color: #FFFFFF; /* Mengatur warna teks menjadi putih untuk seluruh bagian kiri */
+}
+
+.left-section img{
+    width:500px;
+    height: 250px;
+    border: 5px solid var(--bg-color);
+    border-radius: 5px;
+
+
+}
+
+.left-section h1 {
+    color: #007BFF; /* Warna biru cerah untuk judul */
+    font-size: 28px; /* Ukuran font diperbesar */
+    margin-bottom: 20px; /* Jarak bawah diperbesar */
+    text-align: center; /* Teks di tengah */
+}
+
+.left-section p {
+    color: #ffffff; /* Pastikan warna teks mudah dibaca */
+    font-size: 18px; /* Ukuran font diperbesar */
+    line-height: 1.8; /* Spasi baris diperbesar */
+    text-align: justify; /* Rata kiri-kanan */
+    margin-bottom: 30px; /* Jarak bawah diperbesar */
+}
+
+.left-section ul {
+    list-style-type: none; /* Hapus bullet list */
+    padding: 0; /* Hapus padding */
+}
+
+.left-section ul li {
+    color: inherit; /* Mewarisi warna dari parent, yaitu putih */
+    background-color: #2C3E50; /* Warna latar belakang untuk list, warna gelap */
+    padding: 10px; /* Padding di dalam list */
+    border-radius: 5px; /* Sudut yang membulat */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Bayangan kotak */
+    margin-bottom: 5px; /* Jarak antar item list */
+    font-size: 14px; /* Ukuran font list */
+}
+
+.left-section ul li strong {
+    color: #0056b3; /* Warna biru gelap untuk label kategori */
+    font-weight: bold;
+}
+
+.payment-methods {
+    list-style-type: none; /* Hapus bullet points */
+    padding: 0;
+    text-align: left; /* Rata kiri */
+}
+
+.payment-methods li {
+    margin-bottom: 10px; /* Jarak antar item */
+    font-size: 16px; /* Ukuran font */
+    color: #0056b3; /* Warna teks */
+}
+
+.right-section {
+    flex: 65%; /* Memberikan bagian kanan 65% dari lebar container */
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Memberikan padding di dalam bagian kanan */
+    background-color:var(--bg-color);
+    max-width: 70%; /* Membatasi lebar maksimal bagian kanan */
+}
+
+.section-idgame{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
+
+}
+
+.section-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.services-container{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+   
+
+}
+
+.services-container .services-box{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.services-container .services-box:hover,
+.services-box.active{
+    transform: scale(1.1);
+    border-color: #007BFF; /* Warna biru saat hover */
+}
+
+.services-box a{
+    color: var(--main-color);
+}
+
+.services-box i{
+    font-size: 1rem;
+    color: var(--main-color);
+}
+
+.services-box h3{
+    font-size: 1rem;
+}
+
+.services-box p{
+    font-size: 0.5rem;
+}
+
+.bx.bxs-diamond {
+    color: #007BFF; /* Warna biru untuk diamond */
+    font-size: 24px;
+}
+
+.section-pembayaran {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.section-pembayaran h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-pembayaran .payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.section-pembayaran .payment-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.section-pembayaran .payment-option input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.section-pembayaran .payment-option label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #555;
+}
+
+.section-pembayaran .payment-option img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.section-pembayaran .price-tag {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+    align-self: flex-end;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-pembayaran button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.section-pembayaran button:hover {
+    background-color: #45a049;
+}
+
+.section-nomor{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--second-bg-color);
+    border-radius: 8px;
+}
+
+
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    flex: 1; /* Membagi ruang secara merata */
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #000000; /* Warna biru saat fokus */
+}
+
+#orderDetails {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#orderDetails h3 {
+    color: #333;
+}
+
+#orderDetails p {
+    font-size: 16px;
+    color: #666;
+}
+
+#orderDetails button {
+    background-color: #0080ef;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Adjust width for smaller screens */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #0066ff;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: #000; /* Mengatur semua teks menjadi hitam */
+    font-size: 16px; /* Menyesuaikan ukuran font */
+    line-height: 1.5; /* Menyesuaikan tinggi baris */
+    padding: 20px; /* Menambahkan padding untuk estetika */
+}
+
+.modal-body .detail-label {
+    font-weight: bold; /* Membuat label lebih tebal */
+}
+
+.modal-body .detail-value {
+    margin-left: 10px; /* Memberikan jarak antara label dan nilai */
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #0066ff;
+    color: white;
+    text-align: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button {
+    background-color: #416dff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00aeff;
+}
+
+.diamond-image-container {
+    text-align: center; /* Pusatkan gambar */
+    margin: 20px; /* Berikan sedikit ruang sekitar gambar */
+}
+
+#diamondImage {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Pertahankan rasio aspek gambar */
+    border-radius: 10px; /* Berikan border bulat */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Tambahkan shadow untuk efek 3D */
+    transition: transform 0.3s ease; /* Animasi untuk transformasi */
+}
+
+#diamondImage:hover {
+    transform: scale(1.1); /* Membesar gambar ketika di-hover */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Mengubah layout menjadi vertikal pada layar kecil */
+    }
+
+    .left-section, .right-section {
+        flex: 100%; /* Mengizinkan kedua bagian mengambil lebar penuh pada layar kecil */
+        max-width: 100%; /* Mengatur lebar maksimal menjadi 100% */
+    }
+}
