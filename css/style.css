@@ -176,12 +176,12 @@ span{
 }
 
 /* css services */
-.services h2{
+.team h2{
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
 
-.services-container{
+.team-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +190,7 @@ span{
 
 }
 
-.services-container .services-box{
+.team-container .team-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -200,46 +200,46 @@ span{
     transition: 1s ease;
 
 }
-.services-container .services-box:hover{
+.team-container .team-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
 
-.services-box i{
+.team-box i{
     font-size: 6rem;
     color: var(--main-color);
 }
 
-.services-box h3{
+.team-box h3{
     font-size: 2rem;
 }
 
-.services-box p{
+.team-box p{
     font-size: .8rem;
     margin:.5rem 0 1.5rem;
 }
 
 /* portofoliocss */
 
-.portofolio{
+.item{
     
     background: var(--second-bg-color);
 }
 
-.portofolio h2{
+.item h2{
     margin-top: 2rem;
     margin-bottom: 4rem;
 
 }
 
-.portofolio-container{
+.item-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap:1rem;
 }
 
-.portofolio-box{
+.item-box{
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
@@ -247,17 +247,17 @@ span{
     display: flex;
 }
 
-.portofolio-box img{
+.item-box img{
     width: 100%;
     transition: 1s ease;
     object-fit: cover;
 }
 
-.portofolio-box:hover img{
+.item-box:hover img{
     transform: scale(1.1);
 }
 
-.portofolio-box .portofolio-layer{
+.item-box .item-layer{
     position: absolute;
     bottom: 0;
     left:0;
@@ -274,21 +274,21 @@ span{
     transition: 1.5s ease;
 }
 
-.portofolio-box:hover .portofolio-layer{
+.item-box:hover .item-layer{
     transform: translateY(0);
 
 }
 
-.portofolio-layer h4{
+.item-layer h4{
     font-size: 1rem;
 }
 
-.portofolio-layer p{
+.item-layer p{
     font-size: .8rem;
     margin:.1rem 0 .5rem;
 }
 
-.portofolio-layer a{
+.item-layer a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +299,7 @@ span{
 
 }
 
-.portofolio-layer a i{
+.item-layer a i{
     font-size: 1rem;
     color: var(--second-bg-color);
 
@@ -405,11 +405,11 @@ span{
         padding: 10rem 3% 2rem;
     }
 
-    .services{
+    .team{
         padding-bottom: 7rem;
     }
 
-    .portofolio{
+    .item{
         padding-bottom: 7rem;
     }
 
@@ -471,11 +471,11 @@ span{
         margin-top: 4rem;
     }
 
-    .services h2{
+    .team h2{
         margin-bottom: 2rem;
     }
 
-    .portofolio-container{
+    .item-container{
         grid-template-columns: repeat(2,1fr)
     }
     .contact form .input-box input{
@@ -487,7 +487,7 @@ span{
 }
 
 @media(max-width:617px){
-    .portofolio-container{
+    .item-container{
         grid-template-columns: 1fr;
     }
 }
