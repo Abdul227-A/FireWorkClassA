@@ -7,7 +7,7 @@
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="css/coc.css">
+    <link rel="stylesheet" href="css/ff.css">
     
 </head>
 <body>
@@ -28,11 +28,11 @@
 
         <div class="container">
             <div class="left-section">
-                <img src="images/coc3.jpg" alt="Clash of Clan">
-                <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Clash Of Clan di AraStore</h1>
+                <img src="images/ff.jpg" alt="Mobile Legends">
+                <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Mobile Legends di AraStore</h1>
                 <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                    <strong>Top Up Clash Of Clan: Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                    Jadi yang terkuat di Clash of Clans! Top up sekarang dan nikmati diskon spesial, dapatkan item eksklusif, serta percepat progresmu. Jangan lewatkan kesempatan langka ini untuk membangun desa impianmu, mengalahkan musuh dengan lebih cepat, dan meraih kemenangan gemilang. Ayo, buktikan kekuatanmu di medan perang sekarang juga!
+                    <strong>Top Up Mobile Legends: Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                    Dapatkan Diamond, Twilight Pass, dan Weekly Pass Anda dalam hitungan detik. Masukkan User ID dan Zone ID MLBB Anda, pilih jumlah Diamond yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
                 </p>
                 <ul class="payment-methods">
                     <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -45,10 +45,11 @@
             </div>
             <div class="right-section">
                 <div class="section-idgame" id="section2">
-                    <h2>Masukkan player tag</h2>
+                    <h2>Input ID Game</h2>
                     <div class="input-group">
-                        <input type="text" placeholder="Masukkan player tag" id="username">
-    
+                        <input type="text" placeholder="Masukkan Username" id="username">
+                        <input type="text" placeholder="Masukkan ID Game" id="game_id">
+                        <input type="text" placeholder="Masukkan Zone ID" id="zone_id">
                     </div>
                 </div>
 
@@ -198,7 +199,9 @@
                             <h2>Detail Pesanan Anda</h2>
                         </div>
                         <div class="modal-body">
-                            <p><span class="detail-label">Player Tag: </span> <span id="confirmUsername" class="detail-value">arya</span></p>
+                            <p><span class="detail-label">Username:</span> <span id="confirmUsername" class="detail-value">arya</span></p>
+                            <p><span class="detail-label">ID Game:</span> <span id="confirmGameID" class="detail-value">qw</span></p>
+                            <p><span class="detail-label">Zone ID:</span> <span id="confirmZoneID" class="detail-value">qw</span></p>
                             <p><span class="detail-label">Metode Pembayaran:</span> <span id="confirmPaymentMethod" class="detail-value"></span></p>
                             <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value">Rp. 10.000</span></p>
                         </div>
@@ -210,5 +213,56 @@
             </div>
         </div>
    <script src="js/index.js"></script>
+   <script>
+   function selectItem(price) {
+       // Perbarui harga pada semua metode pembayaran
+       document.querySelectorAll('.price-tag').forEach(tag => {
+           tag.innerHTML = 'Rp. ' + price;
+       });
+   }
+
+   function updatePrice(element) {
+       // Menghapus kelas 'selected' dari semua opsi pembayaran
+       document.querySelectorAll('.payment-option').forEach(opt => {
+           opt.classList.remove('selected');
+       });
+       // Menambahkan kelas 'selected' ke opsi yang dipilih
+       element.classList.add('selected');
+   }
+
+   function showOrderDetails() {
+       var username = document.getElementById('username').value;
+       var gameID = document.getElementById('game_id').value;
+       var zoneID = document.getElementById('zone_id').value;
+       var selectedPaymentOption = document.querySelector('input[name="metode_pembayaran"]:checked').labels[0].textContent.trim();
+       var price = document.querySelector('.payment-option.selected .price-tag').textContent;
+
+       document.getElementById('confirmUsername').textContent = username;
+       document.getElementById('confirmGameID').textContent = gameID;
+       document.getElementById('confirmZoneID').textContent = zoneID;
+       document.getElementById('confirmPaymentMethod').textContent = selectedPaymentOption;
+       document.getElementById('confirmTotal').textContent = price;
+
+       document.getElementById('orderDetailsModal').style.display = 'block';
+   }
+
+   // When the user clicks on <span> (x), close the modal
+   document.getElementsByClassName("close-button")[0].onclick = function() {
+       document.getElementById('orderDetailsModal').style.display = "none";
+   }
+
+   // When the user clicks anywhere outside of the modal, close it
+   window.onclick = function(event) {
+       if (event.target == document.getElementById('orderDetailsModal')) {
+           document.getElementById('orderDetailsModal').style.display = "none";
+       }
+   }
+
+   function confirmOrder() {
+       alert('Pesanan Anda telah dikonfirmasi!');
+       document.getElementById('orderDetailsModal').style.display = "none";
+   }
+
+   </script>
 </body>
 </html>
