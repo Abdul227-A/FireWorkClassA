@@ -19,21 +19,22 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
+  
     <div class="container">
         <div class="left-section">
-            <img src="images/eggyparty.jpg" alt="Eggy Party">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Eggy Party di AraStore</h1>
+            <img src="images/honkai.jpg" alt="Mobile Legends">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up HONKAI IMPACT 3 di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Eggy Party: Cepat, Mudah, Aman, terpercaya di AraStore!</strong><br>
-                Top up sekarang di Eggy Party dan kustomisasikan karaktermu dengan kostum dan aksesori unik! Jadilah bintang pesta dengan tampilan yang paling keren.
+                <strong>Top Up Honkai Impact 3 : Cepat, Mudah, Aman, dan terpercaya di AraStore!</strong><br>
+                Top up sekarang di Honkai Impact dan dapatkan karakter serta stigmata eksklusif! Jadilah yang terkuat dengan valkyrie dan perlengkapan terbaik yang hanya bisa kamu dapatkan melalui top up.
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +42,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan eggy coins akan langsung ditambahkan ke akun Eggy Party-++ Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Crystals akan langsung ditambahkan ke akun Honkai Impact Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -56,35 +57,35 @@
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('Eggy Party','1.982')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>10 eggy coins</h3>
-                        <p>Rp. 1.982</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','14.855')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>65 Crystals</h3>
+                        <p>Rp. 14.855</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Eggy Party','11.712')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>63 eggy coins</h3>
-                        <p>Rp. 11.712</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','72.449')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>330 Crystals</h3>
+                        <p>Rp. 72.449</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Eggy Party','23.423')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>126 eggy coins</h3>
-                        <p>Rp. 23.423</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','136.106')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>710 Crystals</h3>
+                        <p>Rp. 136.106</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Eggy Party','58.559')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>324 eggy coins</h3>
-                        <p>Rp. 58.559</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','287.670')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>1430 Crystals</h3>
+                        <p>Rp. 287.670</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Eggy Party','136.640')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>757 eggy coins</h3>
-                        <p>Rp. 136.640</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','843.825')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>3860 Crystals</h3>
+                        <p>Rp. 843.825</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Eggy Party','61.700')">
-                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
-                        <h3>1524 eggy coins</h3>
-                        <p>Rp. 269.369</p> 
+                    <div class="services-box" onclick="selectItem('Crystals','1.685.813')">
+                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
+                        <h3>8088 Crystals</h3>
+                        <p>Rp. 1.685.813</p> 
                     </div>
                 </div>
             </div>
@@ -264,7 +265,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Eggy Party";
+            document.getElementById('hiddengame').value="Honkai Impact";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/pokemon.jpg" alt="">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Pokemon di AraStore</h1>
+            <img src="images/pubg.jpg" alt="">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up PUBG di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Pokemon : Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan  Pokecoins yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  Pokecoins  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up PUBG : Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  UC yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  UC  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +41,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Pokemon Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan UC akan langsung ditambahkan ke akun PUBG Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -55,32 +55,32 @@
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
-                <h5>Pokecoins</h5>
+                <h5>UC</h5>
                 <div class="services-container">
-                    <div class="services-box"  onclick="selectItem('Pokecoins', '6.750')">
-                        <img src="images/itemhtml/pokemoncoins-Photoroom.png" alt="">
-                        <h3>100 Pokecoins</h3>
-                        <p>Rp.6.750</p> 
+                    <div class="services-box"  onclick="selectItem('UC', '15.900')">
+                        <img src="images/itemhtml/ucpubg-Photoroom.png" alt="">
+                        <h3>60 UC</h3>
+                        <p>Rp.15.900</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Pokecoins','87.350')">
-                         <img src="images/itemhtml/pokemoncoins-Photoroom.png" alt="">
-                        <h3>550 Pokecoins</h3>
-                        <p>Rp. 87.350</p> 
+                    <div class="services-box" onclick="selectItem('UC','79.950')">
+                         <img src="images/itemhtml/ucpubg-Photoroom.png" alt="">
+                        <h3>325 UC</h3>
+                        <p>Rp. 79.950</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Pokecoins','173.650')">
-                         <img src="images/itemhtml/pokemoncoins-Photoroom.png" alt="">
-                        <h3>1200 Pokecoins</h3>
-                        <p>Rp. 173.650</p> 
+                    <div class="services-box" onclick="selectItem('UC','158.000')">
+                         <img src="images/itemhtml/ucpubg-Photoroom.png" alt="">
+                        <h3>660 UC</h3>
+                        <p>Rp. 158.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Pokecoins','300.000')">
-                         <img src="images/itemhtml/pokemoncoins-Photoroom.png" alt="">
-                        <h3>2500 Pokecoins</h3>
-                        <p>Rp. 300.000</p> 
+                    <div class="services-box" onclick="selectItem('UC','395.000')">
+                         <img src="images/itemhtml/ucpubg-Photoroom.png" alt="">
+                        <h3>1800 UC</h3>
+                        <p>Rp. 395.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Pokecoins','653.535')">
-                         <img src="images/itemhtml/pokemoncoins-Photoroom.png" alt="">
-                        <h3>5200 Pokecoins</h3>
-                        <p>Rp. 653.535</p> 
+                    <div class="services-box" onclick="selectItem('UC','795.000')">
+                         <img src="images/itemhtml/ucpubg-Photoroom.png" alt="">
+                        <h3>3850 UC</h3>
+                        <p>Rp. 795.000</p> 
                     </div>
                 </div>
                 
@@ -253,7 +253,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Pokemon";
+            document.getElementById('hiddengame').value="PUBG";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

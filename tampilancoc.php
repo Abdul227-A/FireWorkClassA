@@ -7,7 +7,7 @@
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="css/ml.css">
+    <link rel="stylesheet" href="css/gi.css">
     
     
 </head>
@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/ml3.jpg" alt="Mobile Legends">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Mobile Legends di AraStore</h1>
+            <img src="images/coc3.jpg" alt="Clash of Clans">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Clash Of Clan di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Mobile Legends: Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan Diamond, Twilight Pass, dan Weekly Pass Anda dalam hitungan detik. Masukkan User ID dan Zone ID MLBB Anda, pilih jumlah Diamond yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up Clash Of Clan: Cepat, Mudah, Aman, dan terpercaya di AraStore!</strong><br>
+                Jadi yang terkuat di Clash of Clans! Top up sekarang dan nikmati diskon spesial, dapatkan item eksklusif, serta percepat progresmu. Jangan lewatkan kesempatan langka ini untuk membangun desa impianmu, mengalahkan musuh dengan lebih cepat, dan meraih kemenangan gemilang. Ayo, buktikan kekuatanmu di medan perang sekarang juga!
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,79 +41,51 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Mobile Legends Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Gems akan langsung ditambahkan ke akun Clash Of Clans Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
             <div class="section-idgame" id="section2">
-                <h2>Input ID Game</h2>
+                <h2>Masukkan player tag</h2>
                 <div class="input-group">
-                    <input type="text" placeholder="Masukkan UID" id="username">
+                    <input type="text" placeholder="Masukkan player tag" id="username">
                     <input type="text" placeholder="Pilih Server" id="zone_id">
+
                 </div>
             </div>
+
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('Diamond','1.171')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>3 Diamond</h3>
-                        <p>Rp. 1.171</p> 
+                    <div class="services-box" onclick="selectItem('Gems','14.414')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>88 Gems</h3>
+                        <p>Rp. 14.414</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','7.000')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>28 Diamond</h3>
-                        <p>Rp. 7.000</p> 
+                    <div class="services-box" onclick="selectItem('Gems','71.171')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>550 Gems</h3>
+                        <p>Rp. 71.171</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','11.400')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>44 Diamond</h3>
-                        <p>Rp. 11.400</p> 
+                    <div class="services-box" onclick="selectItem('Gems','143.243')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>1320 Gems</h3>
+                        <p>Rp. 143.243</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','15.200')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>59 Diamond</h3>
-                        <p>Rp. 15.200</p> 
+                    <div class="services-box" onclick="selectItem('Gems','296.396')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>2750 Gems</h3>
+                        <p>Rp. 296.396</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','43.700')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>170 Diamond</h3>
-                        <p>Rp. 43.700</p> 
+                    <div class="services-box" onclick="selectItem('Gems','43.700')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>7150 Gems</h3>
+                        <p>Rp.719.820</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','61.700')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>240 Diamond</h3>
-                        <p>Rp. 61.700</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','76.000')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>296 Diamond</h3>
-                        <p>Rp. 76.000</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','104.400')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>408 Diamond</h3>
-                        <p>Rp. 104.400</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','142.500')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>568 Diamond</h3>
-                        <p>Rp. 142.500</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','218.500')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>875 Diamond</h3>
-                        <p>Rp. 218.500</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','475.000')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>2010 Diamond</h3>
-                        <p>Rp. 475.000</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Diamond','1.140.000')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>4830 Diamond</h3>
-                        <p>Rp. 1.140.000</p> 
+                    <div class="services-box" onclick="selectItem('Gems','61.700')">
+                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
+                        <h3>15400 Gems</h3>
+                        <p>Rp. 1.441.441</p> 
                     </div>
                 </div>
             </div>
@@ -198,11 +170,11 @@
                 <h2>Detail Pesanan Anda</h2>
             </div>
             <div class="modal-body">
-                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value"></span></p>
-                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value"></span></p>
-                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value"></span></p>
+                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value">name</span></p>
+                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value">arya</span></p>
+                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value">qw</span></p>
                 <p><span class="detail-label">Metode Pembayaran:</span> <span id="confirmPaymentMethod" class="detail-value"></span></p>
-                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value"></span></p>
+                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value">Rp. 10.000</span></p>
             </div>
             <div class="modal-footer">
                 <form id="orderConfirmationForm" action="pesananorder.php" method="post" style="display:none;">
@@ -225,6 +197,14 @@
 
         
     <script>
+
+        //   window.addEventListener('DOMContentLoaded', (event) => {
+        //     document.getElementById('contactForm').reset();
+        //     if (sessionStorage.getItem('modalShown') !== 'true') {
+        //         document.getElementById('orderDetailsModal').style.display = 'block';
+        //     }
+        // });
+
         // Mengosongkan inputan UID, server, dan nomor pembayaran ketika halaman di-refresh
         window.onload = function() {
             document.getElementById('username').value = '';
@@ -285,7 +265,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Mobile legends";
+            document.getElementById('hiddengame').value="COC";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

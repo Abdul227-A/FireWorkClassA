@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/ff.jpg" alt="Free Fire">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Free Fire di AraStore</h1>
+            <img src="images/gi3.jpg" alt="Mobile Legends">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Genshin Impact di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Free Fire: Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Top up sekarang di Free Fire dan kustomisasikan karaktermu dengan skin, pakaian, dan aksesori keren! Tunjukkan gaya unikmu di medan perang.
+                <strong>Top Up Genshin Impact: Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  Genesis Crystal yang  anda dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  Genesis Crystal yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,52 +41,84 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Free Fire Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Genshin Impact Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
             <div class="section-idgame" id="section2">
                 <h2>Input ID Game</h2>
                 <div class="input-group">
-                    <input type="text" placeholder="Masukkan Username" id="username">
-                    <input type="text" placeholder="Masukkan Zone ID" id="zone_id">
+                    <input type="text" placeholder="Masukkan UID" id="username">
+                    <input type="text" placeholder="Pilih Server" id="zone_id">
                 </div>
             </div>
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
+                <h5>Blessing of the Welkin Moon</h5>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('FREE FIRE','901')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>5 Diamond</h3>
-                        <p>Rp. 901</p> 
+                    <div class="services-box"  onclick="selectItem('Blessing of the Welkin Moon', '62.884')">
+                        <img src="images/itemhtml/welkingi-Photoroom.png" alt="">
+                        <h3>Blessing of the Welkin Moon</h3>
+                        <p>Rp. 62.884</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FREE FIRE','1.802')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>12 Diamond</h3>
-                        <p>Rp. 1.802</p> 
+                    <div class="services-box" onclick="selectItem('Blessing of the Welkin Moon','125.768')">
+                        <img src="images/itemhtml/welkingi-Photoroom.png" alt="">
+                        <h3>2× Blessing of the Welkin Moon</h3>
+                        <p>Rp. 125.768</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FREE FIRE','11.400')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>50 Diamond</h3>
-                        <p>Rp. 7.207</p> 
+                    <div class="services-box" onclick="selectItem('Blessing of the Welkin Moon','188.652')">
+                        <img src="images/itemhtml/welkingi-Photoroom.png" alt="">
+                        <h3>3× Blessing of the Welkin Moon</h3>
+                        <p>Rp. 188.652</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FREE FIRE','9.009')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>70 Diamond</h3>
-                        <p>Rp. 9.009</p> 
+                    <div class="services-box" onclick="selectItem('Blessing of the Welkin Moon','251.535')">
+                        <img src="images/itemhtml/welkingi-Photoroom.png" alt="">
+                        <h3>4× Blessing of the Welkin Moon</h3>
+                        <p>Rp. 251.535</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FREE FIRE','18.018')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>140 Diamond</h3>
-                        <p>Rp. 18.018</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('FREE FIRE','45.045')">
-                        <i class='bx bxs-diamond' style="color: #007BFF;"></i>
-                        <h3>355 Diamond</h3>
-                        <p>Rp. 45.045</p> 
+                    <div class="services-box" onclick="selectItem('Blessing of the Welkin Moon','314.419')">
+                        <img src="images/itemhtml/welkingi-Photoroom.png" alt="">
+                        <h3>5× Blessing of the Welkin Moon</h3>
+                        <p>Rp. 314.419</p> 
                     </div>
                 </div>
+                <h5>Genesis Crystal</h5>
+                <div class="services-container">
+                   
+                    <div class="services-box" onclick="selectItem('Genesis Crystal', '12.317')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>60 GC</h3>
+                        <p>Rp. 12.317</p> 
+                    </div>
+
+                    <div class="services-box" onclick="selectItem('Genesis Crystal','62.884')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>330 (300+30) GC</h3>
+                        <p>Rp. 62.884</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('Genesis Crystal','189.303')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>1090 (980+110) GC</h3>
+                        <p>Rp. 189.303</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('Genesis Crystal','410.534')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>2240 (1980+260) GC</h3>
+                        <p>Rp. 410.534</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('Genesis Crystal','631.766')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>3880 (3280+600) GC</h3>
+                        <p>Rp. 631.766</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('Genesis Crystal','1.263.856')">
+                        <img src="images/itemhtml/gi-Photoroom.png" alt="">
+                        <h3>8080 (6480+1600) GC</h3>
+                        <p>Rp. 1.263.856</p> 
+                    </div>
+                 </div>    
+
             </div>
 
             <div class="section-pembayaran" id="section4">
@@ -264,7 +296,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Free Fire";
+            document.getElementById('hiddengame').value="Genshin Impact";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

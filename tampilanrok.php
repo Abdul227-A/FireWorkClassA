@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php  #item">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/valo3.jpg" alt="">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Valorant di AraStore</h1>
+            <img src="images/rok3.jpg" alt="">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up ROK di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Valorant : Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan  Valorant point yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  Valorant points  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up Rise of kingdom : Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  Gems yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  Gems  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +41,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Valorant point akan langsung ditambahkan ke akun Valorant Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Gems akan langsung ditambahkan ke akun ROK Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -55,53 +55,33 @@
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
-                <h5>Valorant point</h5>
+                <h5>Diamond</h5>
                 <div class="services-container">
-                    <div class="services-box"  onclick="selectItem('Valorant point', '13.514')">
-                        <img src="images/itemhtml/valo.png" alt="">
-                        <h3>125 Valorant point</h3>
-                        <p>Rp.13.514</p> 
+                    <div class="services-box"  onclick="selectItem('Gems', '15.900')">
+                        <img src="images/itemhtml/gemrok-Photoroom.png" alt="">
+                        <h3>60 Gems</h3>
+                        <p>Rp.15.900</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','45.650')">
-                         <img src="images/itemhtml/valo.png" alt="">
-                        <h3>420 Valorant point</h3>
-                        <p>Rp. 45.650</p> 
+                    <div class="services-box" onclick="selectItem('Gems','79.950')">
+                         <img src="images/itemhtml/gemrok-Photoroom.png" alt="">
+                        <h3>325 Gems</h3>
+                        <p>Rp. 79.950</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','72.072')">
-                         <img src="images/itemhtml/valo.png" alt="">
-                        <h3>700 Valorant point</h3>
-                        <p>Rp. 72.072</p> 
+                    <div class="services-box" onclick="selectItem('Gems','158.000')">
+                         <img src="images/itemhtml/gemrok-Photoroom.png" alt="">
+                        <h3>660 Gems</h3>
+                        <p>Rp. 158.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','135.135')">
-                         <img src="images/itemhtml/valo.png" alt="">
-                        <h3>1375 Valorant point</h3>
-                        <p>Rp. 135.135</p> 
+                    <div class="services-box" onclick="selectItem('Gems','395.000')">
+                         <img src="images/itemhtml/gemrok-Photoroom.png" alt="">
+                        <h3>1800 Gems</h3>
+                        <p>Rp. 395.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','225.225 ')">
-                         <img src="images/itemhtml/valo.png" alt="">
-                        <h3>2400 Valorant point</h3>
-                        <p>Rp. 225.225 </p> 
+                    <div class="services-box" onclick="selectItem('Gems','795.000')">
+                         <img src="images/itemhtml/gemrok-Photoroom.png" alt="">
+                        <h3>3850 Gems</h3>
+                        <p>Rp. 795.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','300.225 ')">
-                        <img src="images/itemhtml/valo.png" alt="">
-                       <h3>3400 Valorant point</h3>
-                       <p>Rp. 300.225 </p> 
-                   </div>
-                   <div class="services-box" onclick="selectItem('Valorant point','360.360 ')">
-                         <img src="images/itemhtml/valo.png" alt="">
-                        <h3>4000 Valorant point</h3>
-                        <p>Rp. 360.360 </p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Valorant point','720.721 ')">
-                        <img src="images/itemhtml/valo.png" alt="">
-                       <h3>8150 Valorant point</h3>
-                       <p>Rp. 720.721 </p> 
-                   </div>
-                   <div class="services-box" onclick="selectItem('Valorant point','926.570 ')">
-                    <img src="images/itemhtml/valo.png" alt="">
-                   <h3>9252 Valorant point</h3>
-                   <p>Rp. 926.570 </p> 
-               </div>
                 </div>
                 
             </div>
@@ -273,7 +253,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Valorant";
+            document.getElementById('hiddengame').value="Rise of kingdom";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

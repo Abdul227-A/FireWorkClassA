@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/coc3.jpg" alt="Clash of Clans">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Clash Of Clan di AraStore</h1>
+            <img src="images/eggyparty.jpg" alt="Eggy Coins">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Eggy Coins di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Clash Of Clan: Cepat, Mudah, Aman, dan terpercaya di AraStore!</strong><br>
-                Jadi yang terkuat di Clash of Clans! Top up sekarang dan nikmati diskon spesial, dapatkan item eksklusif, serta percepat progresmu. Jangan lewatkan kesempatan langka ini untuk membangun desa impianmu, mengalahkan musuh dengan lebih cepat, dan meraih kemenangan gemilang. Ayo, buktikan kekuatanmu di medan perang sekarang juga!
+                <strong>Top Up Eggy Coins: Cepat, Mudah, Aman, terpercaya di AraStore!</strong><br>
+                Top up sekarang di Eggy Coins dan kustomisasikan karaktermu dengan kostum dan aksesori unik! Jadilah bintang pesta dengan tampilan yang paling keren.
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,51 +41,50 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Gems akan langsung ditambahkan ke akun Clash Of Clans Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan eggy coins akan langsung ditambahkan ke akun Eggy Coins-++ Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
             <div class="section-idgame" id="section2">
-                <h2>Masukkan player tag</h2>
+                <h2>Input ID Game</h2>
                 <div class="input-group">
-                    <input type="text" placeholder="Masukkan player tag" id="username">
-                    <input type="text" placeholder="Pilih Server" id="zone_id">
-
+                    <input type="text" placeholder="Masukkan Username" id="username">
+                    <input type="text" placeholder="Masukkan Zone ID" id="zone_id">
                 </div>
             </div>
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('Clash of Clans','14.414')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>88 Gems</h3>
-                        <p>Rp. 14.414</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','1.982')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>10 eggy coins</h3>
+                        <p>Rp. 1.982</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Clash of Clans','71.171')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>550 Gems</h3>
-                        <p>Rp. 71.171</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','11.712')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>63 eggy coins</h3>
+                        <p>Rp. 11.712</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Clash of Clans','143.243')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>1320 Gems</h3>
-                        <p>Rp. 143.243</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','23.423')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>126 eggy coins</h3>
+                        <p>Rp. 23.423</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Clash of Clans','296.396')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>2750 Gems</h3>
-                        <p>Rp. 296.396</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','58.559')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>324 eggy coins</h3>
+                        <p>Rp. 58.559</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Clash of Clans','43.700')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>7150 Gems</h3>
-                        <p>Rp.719.820</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','136.640')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>757 eggy coins</h3>
+                        <p>Rp. 136.640</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Clash of Clans','61.700')">
-                        <img src="images/itemhtml/gems-Photoroom.png" alt="">
-                        <h3>15400 Gems</h3>
-                        <p>Rp. 1.441.441</p> 
+                    <div class="services-box" onclick="selectItem('Eggy Coins','61.700')">
+                        <img src="images/itemhtml/eggyparty-Photoroom.png" alt="">
+                        <h3>1524 eggy coins</h3>
+                        <p>Rp. 269.369</p> 
                     </div>
                 </div>
             </div>
@@ -265,7 +264,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Clash Of Clans";
+            document.getElementById('hiddengame').value="Eggy Coins";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

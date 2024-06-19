@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/fc3,jpg.png" alt="Mobile Legends">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up FC Mobile di AraStore</h1>
+            <img src="images/blod.jpg" alt="">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Blood Strike di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up FC Mobile: Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan  Voucher item yang  anda inginkan dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah FC Points yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up Blood Strike: Cepat, Mudah, Aman dan Terpercaya di AraStore!</strong><br>
+                Top up sekarang dan rasakan kemudahan dalam bermain! Dapatkan senjata terbaik dan skin eksklusif yang bikin kamu jadi pemain unggulan di Blood Strike
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +41,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan  FC Points  akan langsung ditambahkan ke akun FC Mobile Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Blood Strike Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -55,70 +55,39 @@
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
-                <h3>FC Points</h3>
+                <h5>Gold</h5>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('FC Points','6.671')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>40 FC POINTS</h3>
-                        <p>Rp. 6.671</p> 
+                    <div class="services-box" onclick="selectItem('Gold','12.171')">
+                      <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>105 Gold</h3>
+                        <p>Rp. 12.171</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','16.4180')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>100 FC POINTS</h3>
-                        <p>Rp. 16.418</p> 
+                    <div class="services-box" onclick="selectItem('Gold','37.838')">
+                       <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>320 Gold</h3>
+                        <p>Rp. 37.838</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','81.0610')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>520 FC POINTS</h3>
-                        <p>Rp. 81.061</p> 
+                    <div class="services-box" onclick="selectItem('Gold','63.063')">
+                       <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>540 Goldd</h3>
+                        <p>Rp. 63.063</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','163.146')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>1070 FC POINTS</h3>
-                        <p>Rp. 163.146</p> 
+                    <div class="services-box" onclick="selectItem('Gold','126.126')">
+                       <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>1100 Gold</h3>
+                        <p>Rp. 126.126</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','337.577')">
-                        <h3>2200 FC POINTS</h3>
-                        <p>Rp. 337.577</p> 
+                    <div class="services-box" onclick="selectItem('Gold','252.252')">
+                       <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>2260 Gold</h3>
+                        <p>Rp. 252.252</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','819.830')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>5750 FC POINTS</h3>
-                        <p>Rp. 819.830</p> 
+                    <div class="services-box" onclick="selectItem('Gold','630.631')">
+                       <img src="images/itemhtml/goldblosstrike-Photoroom.png" alt="">
+                        <h3>5800 Gold</h3>
+                        <p>Rp. 630.631</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('FC Points','1.640.686')">
-                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
-                        <h3>12000 FC POINTS</h3>
-                        <p>Rp. 1.640.686</p> 
-                    </div>
-                </div>
-                <h3>Silver</h3>
-                <div class="services-container">
-                <div class="services-box" onclick="selectItem('Silver','6.671')">
                     
-                    <h3>39 Silver</h3>
-                    <p>Rp. 6.671</p> 
-                </div>
-                <div class="services-box" onclick="selectItem('Silver','81.061')">
-                    
-                    <h3>499 Silver</h3>
-                    <p>Rp. 81.061</p> 
-                </div>
-                <div class="services-box" onclick="selectItem('Silver','337.577')">
-                    
-                    <h3>1999 Silver</h3>
-                    <p>Rp. 337.577</p> 
-                </div>
-                <div class="services-box" onclick="selectItem('Silver',' 819.830')">
-                    
-                    <h3>4999 Silver</h3>
-                    <p>Rp. 819.830</p> 
-                </div>
-                <div class="services-box" onclick="selectItem('Silver','1.640.000')">
-                   
-                    <h3>9999 Silver</h3>
-                    <p>Rp. 1.640.000</p> 
-                </div>
                 </div>
             </div>
 
@@ -297,7 +266,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="FC Mobile";
+            document.getElementById('hiddengame').value="Blood Strike";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

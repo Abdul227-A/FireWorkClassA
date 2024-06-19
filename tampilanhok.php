@@ -19,11 +19,11 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
@@ -56,32 +56,32 @@
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','14.696')">
+                    <div class="services-box" onclick="selectItem('Tokens','14.696')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>88 Tokens </h3>
                         <p>Rp. 14.696</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','43.170')">
+                    <div class="services-box" onclick="selectItem('Tokens','43.170')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>240 Tokens</h3>
                         <p>Rp. 43.170</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','73.480')">
+                    <div class="services-box" onclick="selectItem('Tokens','73.480')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>400 Tokens</h3>
                         <p>Rp. 73.480</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','100.117')">
+                    <div class="services-box" onclick="selectItem('Tokens','100.117')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>560 Tokens</h3>
                         <p>Rp. 100.117</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','146.960')">
+                    <div class="services-box" onclick="selectItem('Tokens','146.960')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>800 Tokens</h3>
                         <p>Rp. 146.960</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honor Of Kings','215.848')">
+                    <div class="services-box" onclick="selectItem('Tokens','215.848')">
                         <img src="images/itemhtml/tokenshok-Photoroom.png" alt="">
                         <h3>1200 Tokens</h3>
                         <p>Rp. 215.848</p> 
@@ -197,6 +197,12 @@
         
     <script>
 
+        //   window.addEventListener('DOMContentLoaded', (event) => {
+        //     document.getElementById('contactForm').reset();
+        //     if (sessionStorage.getItem('modalShown') !== 'true') {
+        //         document.getElementById('orderDetailsModal').style.display = 'block';
+        //     }
+        // });
 
         // Mengosongkan inputan UID, server, dan nomor pembayaran ketika halaman di-refresh
         window.onload = function() {

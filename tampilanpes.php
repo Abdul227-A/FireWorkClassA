@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/solo.jpg" alt="">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Solo leveling di AraStore</h1>
+            <img src="images/efootbal.jpg" alt="">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Efootball 24 di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Solo leveling : Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan  Diamond yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  Diamond  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up Efootball 2024: Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  coin yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  coin yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +41,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Diamond akan langsung ditambahkan ke akun Solo leveling Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan Coin akan langsung ditambahkan ke Efootball Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -55,32 +55,32 @@
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
-                <h5>Diamond</h5>
+                <h5>coin Efootball</h5>
                 <div class="services-container">
-                    <div class="services-box"  onclick="selectItem('Diamond', '11.460')">
-                        <img src="images/itemhtml/solol.png" alt="">
-                        <h3>110 Diamond</h3>
-                        <p>Rp.11.460</p> 
+                    <div class="services-box"  onclick="selectItem('coin Efootball', '20.000')">
+                        <img src="images/itemhtml/coinefootball.png" alt="">
+                        <h3>130 coin Efootball</h3>
+                        <p>Rp.20.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','43.500')">
-                         <img src="images/itemhtml/solol.png" alt="">
-                        <h3>335 Diamond</h3>
-                        <p>Rp. 43.500</p> 
+                    <div class="services-box" onclick="selectItem('coin Efootball','78.257')">
+                         <img src="images/itemhtml/coinefootball.png" alt="">
+                        <h3>550 coin Efootball</h3>
+                        <p>Rp. 78.257</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','145.000')">
-                         <img src="images/itemhtml/solol.png" alt="">
-                        <h3>1150 Diamond</h3>
-                        <p>Rp. 145.000</p> 
+                    <div class="services-box" onclick="selectItem('coin Efootball','157.850')">
+                         <img src="images/itemhtml/coinefootball.png" alt="">
+                        <h3>1040 coin Efootball</h3>
+                        <p>Rp. 157.850</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','319.000')">
-                         <img src="images/itemhtml/solol.png" alt="">
-                        <h3>2600 Diamond</h3>
-                        <p>Rp. 319.000</p> 
+                    <div class="services-box" onclick="selectItem('coin Efootball','300.000')">
+                         <img src="images/itemhtml/coinefootball.png" alt="">
+                        <h3>2130 coin Efootball</h3>
+                        <p>Rp. 300.000</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Diamond','580.000')">
-                         <img src="images/itemhtml/solol.png" alt="">
-                        <h3>4750 Diamond</h3>
-                        <p>Rp. 580.000</p> 
+                    <div class="services-box" onclick="selectItem('coin Efootball','1.152.570')">
+                         <img src="images/itemhtml/coinefootball.png" alt="">
+                        <h3>12800 coin Efootball</h3>
+                        <p>Rp. 1.152.570</p> 
                     </div>
                 </div>
                 
@@ -253,7 +253,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Solo Leveling";
+            document.getElementById('hiddengame').value="efootball";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/honkai.jpg" alt="Mobile Legends">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up HONKAI IMPACT 3 di AraStore</h1>
+            <img src="images/roblox.jpg" alt="">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Roblox di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Honkai Impact 3 : Cepat, Mudah, Aman, dan terpercaya di AraStore!</strong><br>
-                Top up sekarang di Honkai Impact dan dapatkan karakter serta stigmata eksklusif! Jadilah yang terkuat dengan valkyrie dan perlengkapan terbaik yang hanya bisa kamu dapatkan melalui top up.
+                <strong>Top Up Roblox : Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  roblox usd yang  anda  mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  roblox usd  yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,52 +41,49 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Crystals akan langsung ditambahkan ke akun Honkai Impact Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan roblox usd akan langsung ditambahkan ke akun Roblox Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
             <div class="section-idgame" id="section2">
                 <h2>Input ID Game</h2>
                 <div class="input-group">
-                    <input type="text" placeholder="Masukkan Username" id="username">
-                    <input type="text" placeholder="Masukkan Zone ID" id="zone_id">
+                    <input type="text" placeholder="Masukkan UID" id="username">
+                    <input type="text" placeholder="Pilih Server" id="zone_id">
                 </div>
             </div>
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
+                <h5>Voucher</h5>
                 <div class="services-container">
-                    <div class="services-box" onclick="selectItem('Honkai Impact','14.855')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>65 Crystals</h3>
-                        <p>Rp. 14.855</p> 
+                    <div class="services-box"  onclick="selectItem('roblox usd', '175.900')">
+                        <img src="images/itemhtml/robloxusd.png" alt="">
+                        <h3>10 roblox usd</h3>
+                        <p>Rp.175.900</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honkai Impact','72.449')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>330 Crystals</h3>
-                        <p>Rp. 72.449</p> 
+                    <div class="services-box" onclick="selectItem('roblox usd','259.950')">
+                         <img src="images/itemhtml/robloxusd.png" alt="">
+                        <h3>15 roblox usd</h3>
+                        <p>Rp.259.950</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honkai Impact','136.106')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>710 Crystals</h3>
-                        <p>Rp. 136.106</p> 
+                    <div class="services-box" onclick="selectItem('roblox usd','346.450')">
+                         <img src="images/itemhtml/robloxusd.png" alt="">
+                        <h3>20 roblox usd</h3>
+                        <p>Rp. 346.450</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honkai Impact','287.670')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>1430 Crystals</h3>
-                        <p>Rp. 287.670</p> 
+                    <div class="services-box" onclick="selectItem('roblox usd','433.010')">
+                         <img src="images/itemhtml/robloxusd.png" alt="">
+                        <h3>25 roblox usd</h3>
+                        <p>Rp. 433.010</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('Honkai Impact','843.825')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>3860 Crystals</h3>
-                        <p>Rp. 843.825</p> 
-                    </div>
-                    <div class="services-box" onclick="selectItem('Honkai Impact','1.685.813')">
-                        <img src="images/itemhtml/chrystalhonkaiimpact-Photoroom.png" alt="">
-                        <h3>8088 Crystals</h3>
-                        <p>Rp. 1.685.813</p> 
+                    <div class="services-box" onclick="selectItem('roblox usd','519.090')">
+                         <img src="images/itemhtml/robloxusd.png" alt="">
+                        <h3>30 roblox usd</h3>
+                        <p>Rp. 519.090<p> 
                     </div>
                 </div>
+                
             </div>
 
             <div class="section-pembayaran" id="section4">
@@ -169,11 +166,11 @@
                 <h2>Detail Pesanan Anda</h2>
             </div>
             <div class="modal-body">
-                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value">name</span></p>
-                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value">arya</span></p>
-                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value">qw</span></p>
+                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value"></span></p>
+                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value"></span></p>
+                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value"></span></p>
                 <p><span class="detail-label">Metode Pembayaran:</span> <span id="confirmPaymentMethod" class="detail-value"></span></p>
-                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value">Rp. 10.000</span></p>
+                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value"></span></p>
             </div>
             <div class="modal-footer">
                 <form id="orderConfirmationForm" action="pesananorder.php" method="post" style="display:none;">
@@ -196,14 +193,6 @@
 
         
     <script>
-
-        //   window.addEventListener('DOMContentLoaded', (event) => {
-        //     document.getElementById('contactForm').reset();
-        //     if (sessionStorage.getItem('modalShown') !== 'true') {
-        //         document.getElementById('orderDetailsModal').style.display = 'block';
-        //     }
-        // });
-
         // Mengosongkan inputan UID, server, dan nomor pembayaran ketika halaman di-refresh
         window.onload = function() {
             document.getElementById('username').value = '';
@@ -264,7 +253,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="Honkai Impact";
+            document.getElementById('hiddengame').value="Roblox";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;

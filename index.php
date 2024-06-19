@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +37,7 @@
                 <a href="#"><i class='bx bxl-twitter'  ></i></a>
                 <a href="#"><i class='bx bxl-youtube'  ></i></a>
             </div>
-            <a href="#portofolio" class="btn">TOPUP</a>
+            <a href="#item" class="btn">TOPUP</a>
         </div>
 
         <div class="home-img">
@@ -53,7 +53,7 @@
         <div class="about-content">
             <h2 class="heading">About Ara<span>Store</span></h2>
             <h3>AraStore</h3>
-            <p>Website ini sedang dalam tahapan pengembangan oleh kelompok fireworkclass untuk dijadikan sebagai tugas akhir kelompok, yang akan di review di akhir pertemuan nanti di mata kuliah pemrograman we dengan dosen yang terhormat Pak Herman Yuliansah</p>
+            <p>Website ini sedang dalam tahapan pengembangan oleh kelompok fireworkclass untuk dijadikan sebagai tugas akhir kelompok, yang akan di review di akhir pertemuan nanti di mata kuliah pemrograman web dengan dosen yang terhormat Pak Herman Yuliansah</p>
             <a href="#" class="btn">Selengkapnya</a>
         </div>
     </section>
@@ -101,7 +101,7 @@
                 <div class="item-layer">
                     <h4><i>Mobile <span>Legend</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanml.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanml.php"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -110,7 +110,8 @@
                 <div class="item-layer">
                     <h4><i>Genshin <span>Impact</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilangi.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilangi.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -119,7 +120,8 @@
                 <div class="item-layer">
                     <h4><i>FC <span>Mobile</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanfc.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanfc.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -128,7 +130,8 @@
                 <div class="item-layer">
                     <h4><i>Pu<span>bg</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanpubg.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanpubg.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -137,7 +140,8 @@
                 <div class="item-layer">
                     <h4><i>Rise <span>Of</span> Kingdom</i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanrok.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanrok.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -146,7 +150,8 @@
                 <div class="item-layer">
                     <h4><i>Clash <span>Of</span> Clans</i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilancoc.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilancoc.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -155,7 +160,8 @@
                 <div class="item-layer">
                     <h4><i>Arena <span>Breakout</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanbreakout.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanbreakout.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -164,7 +170,7 @@
                 <div class="item-layer">
                     <h4><i>Blood <span>Strike</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanblods.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanblods.php"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -173,7 +179,7 @@
                 <div class="item-layer">
                     <h4><i>E <span>Football</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanpes.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanpes.php"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -182,7 +188,8 @@
                 <div class="item-layer">
                     <h4><i>Eggy <span>Party</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilaneggp.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilaneggp.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -191,7 +198,8 @@
                 <div class="item-layer">
                     <h4><i>Free<span>Fire</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanff.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanff.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -200,7 +208,8 @@
                 <div class="item-layer">
                     <h4><i>Honkai <span>Impact</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanhonkaii.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanhonkaii.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -209,7 +218,8 @@
                 <div class="item-layer">
                     <h4><i>Honor <span>Of</span> Kings</i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanhok.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanhok.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -218,7 +228,8 @@
                 <div class="item-layer">
                     <h4><i>League <span>Of</span> Legend</i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanlol.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanlol.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -227,7 +238,8 @@
                 <div class="item-layer">
                     <h4><i>Rob<span>Lox</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanroblox.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanroblox.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -236,7 +248,8 @@
                 <div class="item-layer">
                     <h4><i>Valo<span>Rant</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanvalo.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanvalo.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -245,7 +258,8 @@
                 <div class="item-layer">
                     <h4><i>Solo Leveling <span>Arise</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilansolol.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilansolol.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 
@@ -254,7 +268,8 @@
                 <div class="item-layer">
                     <h4><i>Pokemon <span>Go</span></i></h4>
                     <p>TopUp sekarang di <i>Ara<span>Store</span></i></p>
-                    <a href="tampilanpokemon.html"><i class='bx bx-link-external'></i></a>
+                    <a href="tampilanpokemon.php
+                    "><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 

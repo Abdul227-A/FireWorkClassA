@@ -19,21 +19,21 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="index.html #home" class="active">Home</a>
-            <a href="index.html #about">About</a>
-            <a href="index.html #team">Team</a>
-            <a href="index.php">Items</a>
-            <a href="index.html #contact">Message</a>
+            <a href="index.php" class="active">Home</a>
+            <a href="index.php #about">About</a>
+            <a href="index.php #team">Team</a>
+            <a href="index.php #item">Items</a>
+            <a href="index.php #contact">Message</a>
         </nav>
     </header>  
 
     <div class="container">
         <div class="left-section">
-            <img src="images/efootbal.jpg" alt="">
-            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up Efootball 24 di AraStore</h1>
+            <img src="images/fc3,jpg.png" alt="Mobile Legends">
+            <h1 style="color: #007BFF; font-size: 24px; margin-bottom: 10px;">Top Up FC Mobile di AraStore</h1>
             <p style="color: #ffff; font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
-                <strong>Top Up Efootball 2024: Cepat, Mudah, dan Aman di AraStore!</strong><br>
-                Dapatkan  coin yang  anda mau dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah  coin yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
+                <strong>Top Up FC Mobile: Cepat, Mudah, dan Aman di AraStore!</strong><br>
+                Dapatkan  Voucher item yang  anda inginkan dalam hitungan detik. Masukkan UID dan Pilih Server, pilih jumlah FC Points yang diinginkan, dan selesaikan pembayaran dengan metode yang paling nyaman untuk Anda:
             </p>
             <ul class="payment-methods">
                 <li><strong style="color: hwb(211 0% 30%); font-weight: bold;">Pulsa:</strong> Telkomsel,Axis,Indosat</li>
@@ -41,7 +41,7 @@
                 <li><strong style="color: #0056b3; font-weight: bold;">Lainnya:</strong>QRIS</li>
             </ul>
             <p class="confirmation">
-                Konfirmasi pembayaran Anda, dan Coin akan langsung ditambahkan ke Efootball Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
+                Konfirmasi pembayaran Anda, dan  FC Points  akan langsung ditambahkan ke akun FC Mobile Anda. <strong>Top up sekarang dan tingkatkan pengalaman bermain Anda!</strong>
             </p>
         </div>
         <div class="right-section">
@@ -55,35 +55,71 @@
 
             <div class="section-item" id="section3">
                 <h2>Item dari Game</h2>
-                <h5>coin Efootball</h5>
+                <h3>FC Points</h3>
                 <div class="services-container">
-                    <div class="services-box"  onclick="selectItem('coin Efootball', '20.000')">
-                        <img src="images/itemhtml/coinefootball.png" alt="">
-                        <h3>130 coin Efootball</h3>
-                        <p>Rp.20.000</p> 
+                    <div class="services-box" onclick="selectItem('FC Points','6.671')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>40 FC POINTS</h3>
+                        <p>Rp. 6.671</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('coin Efootball','78.257')">
-                         <img src="images/itemhtml/coinefootball.png" alt="">
-                        <h3>550 coin Efootball</h3>
-                        <p>Rp. 78.257</p> 
+                    <div class="services-box" onclick="selectItem('FC Points','16.4180')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>100 FC POINTS</h3>
+                        <p>Rp. 16.418</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('coin Efootball','157.850')">
-                         <img src="images/itemhtml/coinefootball.png" alt="">
-                        <h3>1040 coin Efootball</h3>
-                        <p>Rp. 157.850</p> 
+                    <div class="services-box" onclick="selectItem('FC Points','81.0610')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>520 FC POINTS</h3>
+                        <p>Rp. 81.061</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('coin Efootball','300.000')">
-                         <img src="images/itemhtml/coinefootball.png" alt="">
-                        <h3>2130 coin Efootball</h3>
-                        <p>Rp. 300.000</p> 
+                    <div class="services-box" onclick="selectItem('FC Points','163.146')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>1070 FC POINTS</h3>
+                        <p>Rp. 163.146</p> 
                     </div>
-                    <div class="services-box" onclick="selectItem('coin Efootball','1.152.570')">
-                         <img src="images/itemhtml/coinefootball.png" alt="">
-                        <h3>12800 coin Efootball</h3>
-                        <p>Rp. 1.152.570</p> 
+                    <div class="services-box" onclick="selectItem('FC Points','337.577')">
+                        <h3>2200 FC POINTS</h3>
+                        <p>Rp. 337.577</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('FC Points','819.830')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>5750 FC POINTS</h3>
+                        <p>Rp. 819.830</p> 
+                    </div>
+                    <div class="services-box" onclick="selectItem('FC Points','1.640.686')">
+                        <img src="images/itemhtml/FCpoints-Photoroom.png" alt="">
+                        <h3>12000 FC POINTS</h3>
+                        <p>Rp. 1.640.686</p> 
                     </div>
                 </div>
-                
+                <h3>Silver</h3>
+                <div class="services-container">
+                <div class="services-box" onclick="selectItem('Silver','6.671')">
+                    
+                    <h3>39 Silver</h3>
+                    <p>Rp. 6.671</p> 
+                </div>
+                <div class="services-box" onclick="selectItem('Silver','81.061')">
+                    
+                    <h3>499 Silver</h3>
+                    <p>Rp. 81.061</p> 
+                </div>
+                <div class="services-box" onclick="selectItem('Silver','337.577')">
+                    
+                    <h3>1999 Silver</h3>
+                    <p>Rp. 337.577</p> 
+                </div>
+                <div class="services-box" onclick="selectItem('Silver',' 819.830')">
+                    
+                    <h3>4999 Silver</h3>
+                    <p>Rp. 819.830</p> 
+                </div>
+                <div class="services-box" onclick="selectItem('Silver','1.640.000')">
+                   
+                    <h3>9999 Silver</h3>
+                    <p>Rp. 1.640.000</p> 
+                </div>
+                </div>
             </div>
 
             <div class="section-pembayaran" id="section4">
@@ -166,11 +202,11 @@
                 <h2>Detail Pesanan Anda</h2>
             </div>
             <div class="modal-body">
-                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value"></span></p>
-                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value"></span></p>
-                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value"></span></p>
+                <p><span class="detail-label">Nama Item  :</span> <span id="selectedItemName" class="detail-value">name</span></p>
+                <p><span class="detail-label">UID   :</span> <span id="confirmUsername" class="detail-value">arya</span></p>
+                <p><span class="detail-label">Server:</span> <span id="confirmZoneID" class="detail-value">qw</span></p>
                 <p><span class="detail-label">Metode Pembayaran:</span> <span id="confirmPaymentMethod" class="detail-value"></span></p>
-                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value"></span></p>
+                <p><span class="detail-label">Total Pembayaran:</span> <span id="confirmTotal" class="detail-value">Rp. 10.000</span></p>
             </div>
             <div class="modal-footer">
                 <form id="orderConfirmationForm" action="pesananorder.php" method="post" style="display:none;">
@@ -193,6 +229,14 @@
 
         
     <script>
+
+        //   window.addEventListener('DOMContentLoaded', (event) => {
+        //     document.getElementById('contactForm').reset();
+        //     if (sessionStorage.getItem('modalShown') !== 'true') {
+        //         document.getElementById('orderDetailsModal').style.display = 'block';
+        //     }
+        // });
+
         // Mengosongkan inputan UID, server, dan nomor pembayaran ketika halaman di-refresh
         window.onload = function() {
             document.getElementById('username').value = '';
@@ -253,7 +297,7 @@
 
         // Menampilkan alert saat pesanan dikonfirmasi
         function confirmOrder() {
-            document.getElementById('hiddengame').value="efootball";
+            document.getElementById('hiddengame').value="FC Mobile";
             document.getElementById('hiddenItemName').value=document.getElementById('selectedItemName').textContent;
             document.getElementById('hiddenUsername').value = document.getElementById('confirmUsername').textContent;
             document.getElementById('hiddenZoneID').value = document.getElementById('confirmZoneID').textContent;
