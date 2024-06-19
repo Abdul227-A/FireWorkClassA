@@ -212,8 +212,9 @@ section{
     color: var(--main-color);
 }
 
-.services-box i{
-    font-size: 1rem;
+.services-box img{
+    width: 30px;
+    object-fit: contain;
     color: var(--main-color);
 }
 
@@ -222,7 +223,7 @@ section{
 }
 
 .services-box p{
-    font-size: 0.5rem;
+    font-size: .8rem;
 }
 
 .bx.bxs-diamond {

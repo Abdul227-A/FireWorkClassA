@@ -295,19 +295,30 @@
     <section class="contact" id="contact">
         <h2 class="heading">Pesan<span>dan</span>Kesan</h2>
         <p>Berikan kesan dan pesan anda selama berkunjung di web kami. Terima Kasih</p>
-        <form action="#">
+        <form id="refreshform" action="saran.php" method="post">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="text" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" id="number" name="number" placeholder="Mobile Number" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="text" value="Send Message" class="btn">
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit" class="btn">
         </form>
+        <script>
+            window.onload = function() {
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('number').value = '';
+            document.getElementById('message').value = '';
+            };
+    
+      
+        </script>
+
     </section>
+    
 
     <!-- footerdesign -->
     <footer class="footer">

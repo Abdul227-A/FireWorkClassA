@@ -45,6 +45,19 @@ navLinks.forEach(link => {
     };
 });
 
+function resetForm() {
+    document.getElementById('refreshform').reset();
+    return true; // memastikan form tetap dikirim
+}
+window.onload = function() {
+    // document.getElementById('username').value = '';
+    // document.getElementById('zone_id').value = '';
+    // document.querySelectorAll('input[type="text"]').forEach(input => input.value = '');
+    // document.querySelectorAll('.price-tag').forEach(tag => tag.textContent = 'Rp. 0');
+    document.getElementById('refreshform').reset();
+    return true;
+};
+
 
 
 
