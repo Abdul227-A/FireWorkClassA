@@ -260,33 +260,8 @@
 
         </div>
             <!-- voucher mobile -->
-            <h2 class="heading">Voucher<span>Item</span></h2>
-            <div class="item-container">
-                <div class="item-box">
-                    <img src="images/axis2.jpg">
-                    <div class="item-layer">
-                        <h4><i>Axis</i></h4>
-                        <p>Beli voucher kartu sekarang di <i>Ara<span>Store</span></i></p>
-                        <a href="tampilanaxis.html"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-    
-                <div class="item-box">
-                    <img src="images/telkom.jpg">
-                    <div class="item-layer">
-                        <h4><i>Telkomsel</i></h4>
-                        <p>Beli voucher kartu sekarang di <i>Ara<span>Store</span></i></p>
-                        <a href="tampilantelkomsel.html"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-    
-                <div class="item-box">
-                    <img src="images/indosat.jpg">
-                    <div class="item-layer">
-                        <h4><i>Indosat</i></h4>
-                        <p>Beli voucher kartu sekarang di <i>Ara<span>Store</span></i></p>
-                        <a href="tampilanindosat.html"><i class='bx bx-link-external'></i></a>
-                    </div>
+            
+            
                 </div>
 
     </section>

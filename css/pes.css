@@ -338,29 +338,15 @@ section{
     border-radius: 4px;
 }
 
+
 .input-group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-        "username game_id"
-        "zone_id zone_id";
+    grid-template-columns: (2,1fr);
     gap: 10px;
     width: 40%;
     margin-bottom: 10px;
 }
 
-#username {
-    grid-area: username;
-}
-
-#game_id {
-    grid-area: game_id;
-}
-
-#zone_id {
-    grid-area: zone_id;
-}
 
 .input-group input {
     padding: 10px;
